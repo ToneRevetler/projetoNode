@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req,res)=>{    
     // res.sendFile(__dirname + "/html/index.html");
-    res.render("/views/home.ejs");
+    res.render("index");
 });
     
 app.get('/bruno', (req,res)=>{    
