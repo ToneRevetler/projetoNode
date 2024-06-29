@@ -2,9 +2,11 @@
   "name": "cardapiojs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch --no-warnings server.js"
+    "start": "node app.js",
+    "dev": "node --watch --no-warnings app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,8 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "fastify": "^4.28.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
     "mysql2": "^3.10.1",
     "nodemon": "^3.1.4",
     "sequelize": "^6.37.3"
